@@ -145,13 +145,15 @@ Replacement report:
 
 ---
 
-## Related Skills
+## When to Use It
 
-Pair this with other Claude Code skills:
+Run `/clean-text` any time a document has passed through an AI tool, been pasted from Word or Google Docs, or been drafted in Notion before landing in your repo:
 
-- After `/prd-draft` — clean the output before sharing
-- After `/meeting-notes` — clean pasted transcript artefacts
-- After `/status-update` — ensure executive comms are clean
+- **AI-drafted documents** — PRDs, specs, strategy docs, meeting notes, status updates
+- **Pasted content** — anything copied from a rich text editor into markdown
+- **Before sharing or publishing** — ensures recipients see clean, portable text
+- **Before committing to version control** — prevents noisy diffs caused by Unicode character changes
+- **Before feeding text back into an AI** — reduces token ambiguity from non-ASCII punctuation
 
 ---
 
